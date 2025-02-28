@@ -1,0 +1,66 @@
+/* STYLE FOR THE INPUT FIELD */
+body {
+    background-color: black;
+    color:white;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Dongle', sans-serif;
+}
+
+h1{
+    font-size: 18px;
+}
+
+/* 输入框样式 */
+#charInput {
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* 输入框的占位符样式 */
+#charInput::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* 提交按钮样式 */
+#submitButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #444;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#submitButton:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* 图片容器样式 */
+#displayedImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    padding: 30px;
+    display: none;
+}
+
