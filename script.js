@@ -1,20 +1,3 @@
-// Array of images
-
-// var arr = ["A", "B", "C"];
-//             0.   1.   2
-// arr[0] = "A"
-
-// var happyBirthday = ["march 9th", "december 12th", "april 6th"];
-
-// happyBirthday[0] = "march 9th"
-// happyBirthday[2]= "april 6th"
-
-// var age= [88, 18, 14, 90]
-
-// DIRECTIONS: UPDATE THE URLS WITH THE RELATIVE LINKS OF YOUR IMAGES
-
-// array of 27 images
-// 0 - A
 const images = [
     "main-image-1.jpg", //A
     "main-image-2.jpg", //B

@@ -13,6 +13,7 @@ body {
 }
 
 h1{
+    margin-top:50px;
     font-size: 18px;
 }
 
@@ -27,7 +28,7 @@ h1{
     color: white;
     outline: none;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /* 输入框的占位符样式 */
@@ -37,7 +38,7 @@ h1{
 
 /* 提交按钮样式 */
 #submitButton {
-    padding: 10px 20px;
+    padding: 5px 20px;
     font-size: 18px;
     color: white;
     background-color: #444;
@@ -55,12 +56,14 @@ h1{
 
 /* 图片容器样式 */
 #displayedImage {
+    margin-top: 10px;
     display: flex;
+    object-fit: contain;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 500px;
     width: 500px;
-    padding: 30px;
+    padding:px;
     display: none;
 }
 
